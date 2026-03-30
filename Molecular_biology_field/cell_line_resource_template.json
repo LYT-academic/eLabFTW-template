@@ -1,0 +1,134 @@
+{
+    "elabftw": {
+        "display_main_text": true,
+        "extra_fields_groups": [
+            {
+                "id": 1,
+                "name": "Identity"
+            },
+            {
+                "id": 2,
+                "name": "Tracing"
+            },
+            {
+                "id": 3,
+                "name": "Culture Conditions"
+            },
+            {
+                "id": 4,
+                "name": "Storage"
+            }
+        ]
+    },
+    "extra_fields": {
+        "Cell_Line_Name": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 10
+        },
+        "Species": {
+            "type": "select",
+            "value": "Escherichia coli",
+            "options": [
+                "Ideonella sakaiensis",
+                "Escherichia coli",
+                "Saccharomyces cerevisiae",
+                "Agrobacterium rhizogenes",
+                "Agrobacterium tumefaciens",
+                "Homo sapiens",
+                "Mus musculus",
+                "Arabidopsis thaliana",
+                "Other"
+            ],
+            "group_id": 1,
+            "position": 20
+        },
+        "Species_Varient": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 21
+        },
+        "Transformed_Plasmid": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 23
+        },
+        "Antibiotic_Note": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 22
+        },
+        "Obtained_Source": {
+            "type": "text",
+            "value": "",
+            "group_id": 2,
+            "position": 30
+        },
+        "Cell_Line_Parent": {
+            "type": "text",
+            "value": "",
+            "group_id": 2,
+            "position": 31
+        },
+        "Engineering_Note": {
+            "type": "text",
+            "value": "",
+            "group_id": 2,
+            "position": 32
+        },
+        "culture_medium": {
+            "type": "text",
+            "value": "LB medium: 10 g/L tryptone, 5 g/L yeast extract, 10 g/L NaCl",
+            "group_id": 3,
+            "position": 40
+        },
+        "Culture_Condition": {
+            "type": "text",
+            "value": "37 °C; 220 rpm",
+            "group_id": 3,
+            "position": 50
+        },
+        "Storage_Date": {
+            "type": "date",
+            "value": "",
+            "group_id": 4,
+            "position": 60
+        },
+        "Storage_Volumn": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 62
+        },
+        "Storage_Location": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 70
+        },
+        "Storage_Temp": {
+            "type": "select",
+            "value": "-80",
+            "options": [
+                "liquid nitrogen",
+                "-20",
+                "-80",
+                "4",
+                "Room temperature",
+                "37"
+            ],
+            "group_id": 4,
+            "position": 80
+        },
+        "Storage_Person": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 90
+        }
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "elabftw": {
+        "display_main_text": true,
+        "extra_fields_groups": [
+            {
+                "id": 1,
+                "name": "Basic"
+            },
+            {
+                "id": 2,
+                "name": "Hardware"
+            },
+            {
+                "id": 3,
+                "name": "Software"
+            },
+            {
+                "id": 4,
+                "name": "Maintenance"
+            }
+        ]
+    },
+    "extra_fields": {
+        "Name": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 10
+        },
+        "Equipment_Type": {
+            "type": "select",
+            "value": "PCR machine",
+            "options": [
+                "PCR machine",
+                "Centrifuge",
+                "Microscope",
+                "Sequencer",
+                "Freezer",
+                "HPLC",
+                "Incubator",
+                "Measurement device",
+                "Other"
+            ],
+            "group_id": 1,
+            "position": 20
+        },
+        "Main_Function": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 21
+        },
+        "Responsible_Person": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 22
+        },
+        "Location": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 23
+        },
+        "Purchase_Date": {
+            "type": "date",
+            "value": "",
+            "group_id": 1,
+            "position": 24
+        },
+        "Produce_Date": {
+            "type": "date",
+            "value": "",
+            "group_id": 1,
+            "position": 25
+        },
+        "Manual_File_Attached": {
+            "type": "checkbox",
+            "value": "off",
+            "group_id": 1,
+            "position": 26
+        },
+        "Photo_File_Attached": {
+            "type": "checkbox",
+            "value": "off",
+            "group_id": 1,
+            "position": 27
+        },
+        "Manufacturer": {
+            "type": "text",
+            "value": "",
+            "group_id": 2,
+            "position": 30
+        },
+        "Serial_Number": {
+            "type": "text",
+            "value": "",
+            "group_id": 2,
+            "position": 40
+        },
+        "Software_Version": {
+            "type": "text",
+            "value": "",
+            "group_id": 3,
+            "position": 50
+        },
+        "Firmware_Version": {
+            "type": "text",
+            "value": "",
+            "group_id": 3,
+            "position": 60
+        },
+        "Maintenance_Notes": {
+            "type": "text",
+            "value": "",
+            "group_id": 4,
+            "position": 90
+        }
+    }
+}
