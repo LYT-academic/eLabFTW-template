@@ -1,0 +1,208 @@
+{
+  "elabftw": {
+    "display_main_text": true,
+    "extra_fields_groups": [
+      {
+        "id": 1,
+        "name": "Basic Information"
+      },
+      {
+        "id": 2,
+        "name": "Identity"
+      },
+      {
+        "id": 3,
+        "name": "Usage"
+      },
+      {
+        "id": 4,
+        "name": "Storage"
+      }
+    ]
+  },
+  "extra_fields": {
+    "Reagent_type": {
+      "type": "select",
+      "value": "enzyme",
+      "options": [
+        "enzyme",
+        "buffer",
+        "antibody",
+        "chemical",
+        "kit",
+        "media",
+        "consumer",
+        "other"
+      ],
+      "group_id": 1,
+      "position": 10
+    },
+    "Reagent_name": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 11
+    },
+    "Pubchem_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 12
+    },
+    "CAS_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 13
+    },
+    "Catalog_number": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 20
+    },
+    "Lot_number": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 30
+    },
+    "Manufacturer": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 40
+    },
+    "Vendor": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 41
+    },
+    "Price": {
+      "type": "number",
+      "value": "",
+      "unit": [
+        "YEN",
+        "DOLLAR",
+        "RMB",
+        "Other"
+      ],
+      "group_id": 2,
+      "position": 42
+    },
+    "Concentration": {
+      "type": "number",
+      "value": "",
+      "units": [
+        "mM",
+        "µM",
+        "g/L",
+        "mg/mL",
+        "mg/L",
+        "ug/uL",
+        "ug/mL",
+        "ng/uL",
+        "ng/mL"
+      ],
+      "group_id": 3,
+      "position": 50
+    },
+    "Capacity": {
+      "type": "number",
+      "value": "",
+      "units": [
+        "uL",
+        "mL",
+        "L",
+        "ug",
+        "ng",
+        "mg",
+        "g",
+        "kg"
+      ],
+      "group_id": 3,
+      "position": 51
+    },
+    "Application": {
+      "type": "select",
+      "value": "PCR",
+      "options": [
+        "PCR",
+        "Western blot",
+        "Cell culture",
+        "Transgenic experiment",
+        "Protein purification",
+        "Metabolomics experiment",
+        "Other"
+      ],
+      "group_id": 3,
+      "position": 60
+    },
+    "Hazardous_level": {
+      "type": "select",
+      "value": "",
+      "options": [
+        "Safe",
+        "Class 1: Explosives",
+        "Class 2: Gases",
+        "Class 3: Flammable liquids",
+        "Class 4: Flammable solids",
+        "Class 5: Oxidizing substances/organic peroxides",
+        "Class 6: Toxic/infectious substances",
+        "Class 7: Radioactive materials",
+        "Class 8: Corrosives",
+        "Class 9: Miscellaneous"
+      ],
+      "group_id": 3,
+      "position": 70
+    },
+    "Storage_location:": {
+      "type": "text",
+      "value": "",
+      "group_id": 4,
+      "position": 78
+    },
+    "Storage_Numbers:": {
+      "type": "number",
+      "value": 1,
+      "units": [
+        "bottle(s)",
+        "package(s)",
+        "tube(s)"
+      ],
+      "group_id": 4,
+      "position": 79
+    },
+    "Storage_temperature": {
+      "type": "select",
+      "value": "4",
+      "options": [
+        "Room temperature",
+        "4",
+        "-20",
+        "-80"
+      ],
+      "group_id": 4,
+      "position": 80
+    },
+    "Produced_date": {
+      "type": "date",
+      "value": "",
+      "group_id": 4,
+      "position": 81
+    },
+    "Opened_date": {
+      "type": "date",
+      "value": "",
+      "group_id": 4,
+      "position": 82
+    },
+    "Expiry_date": {
+      "type": "date",
+      "value": "",
+      "group_id": 4,
+      "position": 90
+    }
+  }
+}

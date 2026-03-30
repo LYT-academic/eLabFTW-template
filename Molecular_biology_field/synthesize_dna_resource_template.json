@@ -1,0 +1,303 @@
+{
+  "elabftw": {
+    "display_main_text": true,
+    "extra_fields_groups": [
+      {
+        "id": 1,
+        "name": "Basic Information"
+      },
+      {
+        "id": 2,
+        "name": "Design Sequence Information"
+      },
+      {
+        "id": 3,
+        "name": "Supplier"
+      },
+      {
+        "id": 4,
+        "name": "Storage"
+      }
+    ]
+  },
+  "extra_fields": {
+    "gene_name": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 10
+    },
+    "source_organism": {
+      "type": "text",
+      "value": "Ideonella sakaiensis",
+      "group_id": 1,
+      "position": 20
+    },
+    "wild_dna_database_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 30
+    },
+    "wild_dna_sequence_5to3": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 40
+    },
+    "wild_dna_length": {
+      "type": "number",
+      "value": "",
+      "units": [
+        "bp"
+      ],
+      "group_id": 1,
+      "position": 50
+    },
+    "wild_dna_has_stop_codon": {
+      "type": "checkbox",
+      "value": "off",
+      "group_id": 1,
+      "position": 60
+    },
+    "wild_dna_has_signal_peptide": {
+      "type": "checkbox",
+      "value": "off",
+      "group_id": 1,
+      "position": 60
+    },
+    "wild_protein_translation": {
+      "type": "text",
+      "value": "",
+      "group_id": 1,
+      "position": 70
+    },
+    "wild_protein_length": {
+      "type": "number",
+      "value": "",
+      "units": [
+        "aa"
+      ],
+      "group_id": 1,
+      "position": 80
+    },
+    "reference_URL": {
+      "type": "url",
+      "value": "",
+      "group_id": 1,
+      "position": 90
+    },
+    "expression_host": {
+      "type": "select",
+      "value": "Escherichia coli",
+      "options": [
+        "Ideonella sakaiensis",
+        "Escherichia coli",
+        "Saccharomyces cerevisiae",
+        "Homo sapiens",
+        "Mus musculus",
+        "Arabidopsis thaliana",
+        "Other"
+      ],
+      "group_id": 2,
+      "position": 100
+    },
+    "sequence_type": {
+      "type": "select",
+      "value": "CDS",
+      "options": [
+        "CDS",
+        "Primer",
+        "Promoter",
+        "Linker",
+        "Barcode",
+        "Full gene",
+        "Other"
+      ],
+      "group_id": 2,
+      "position": 110
+    },
+    "codon_optimized": {
+      "type": "checkbox",
+      "value": "off",
+      "group_id": 2,
+      "position": 120
+    },
+    "synthesize_dna_restriction_sites": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 121
+    },
+    "synthesize_dna_has_stop_codon": {
+      "type": "checkbox",
+      "value": "off",
+      "group_id": 2,
+      "position": 130
+    },
+    "synthesize_dna_has_signal_peptide": {
+      "type": "checkbox",
+      "value": "off",
+      "group_id": 2,
+      "position": 140
+    },
+    "synthesize_dna_target_plasmid": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 150
+    },
+    "synthesize_dna_target_plasmid_assembly_method": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 151
+    },
+    "synthesize_dna_has_plasmid_overlap_arm": {
+      "type": "checkbox",
+      "value": "off",
+      "group_id": 2,
+      "position": 160
+    },
+    "synthesize_dna_target_plasmid_overlap_armF": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 170
+    },
+    "synthesize_dna_target_plasmid_overlap_armR": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 180
+    },
+    "synthesize_dna_sequence_5to3": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 190
+    },
+    "synthesize_dna_length": {
+      "type": "number",
+      "value": "",
+      "units": [
+        "bp"
+      ],
+      "group_id": 2,
+      "position": 200
+    },
+    "synthesize_protein_translation": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 210
+    },
+    "synthesize_protein_length": {
+      "type": "number",
+      "value": "",
+      "units": [
+        "aa"
+      ],
+      "group_id": 2,
+      "position": 220
+    },
+    "Sequence File Attached": {
+      "type": "checkbox",
+      "value": "off",
+      "group_id": 4,
+      "position": 221
+    },
+    "supplier": {
+      "type": "select",
+      "value": "IDT",
+      "options": [
+        "IDT",
+        "Eurofins",
+        "Twist Bioscience",
+        "GenScript",
+        "Other"
+      ],
+      "group_id": 3,
+      "position": 230
+    },
+    "synthesize_type": {
+      "type": "select",
+      "value": "gBlock",
+      "options": [
+        "Fragment",
+        "Oligo",
+        "gBlock",
+        "Other"
+      ],
+      "group_id": 3,
+      "position": 231
+    },
+    "order_id": {
+      "type": "text",
+      "value": "",
+      "group_id": 3,
+      "position": 240
+    },
+    "order_date": {
+      "type": "date",
+      "value": "",
+      "group_id": 3,
+      "position": 250
+    },
+    "storage_concentration": {
+      "type": "number",
+      "unit": "ng/uL",
+      "units": [
+        "ng/uL",
+        "ug/uL",
+        "ug/mL",
+        "ng/mL"
+      ],
+      "value": "",
+      "group_id": 4,
+      "position": 260
+    },
+    "storage_buffer": {
+      "type": "text",
+      "value": "MilliQ",
+      "group_id": 4,
+      "position": 270
+    },
+    "storage_temperature": {
+      "type": "select",
+      "value": "-20",
+      "options": [
+        "Room temperature",
+        "4",
+        "-20",
+        "-80"
+      ],
+      "group_id": 4,
+      "position": 280
+    },
+    "storage_location": {
+      "type": "text",
+      "value": "",
+      "group_id": 4,
+      "position": 290
+    },
+    "Sequence Verified": {
+      "type": "checkbox",
+      "value": "off",
+      "group_id": 4,
+      "position": 300
+    },
+    "Validation Method": {
+      "type": "select",
+      "value": "",
+      "options": [
+        "Sanger",
+        "NGS",
+        "Colony PCR",
+        "Other"
+      ],
+      "group_id": 4,
+      "position": 310
+    }
+  }
+}
