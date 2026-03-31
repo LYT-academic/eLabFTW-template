@@ -39,6 +39,7 @@
                 "HPLC",
                 "Incubator",
                 "Measurement device",
+                "Computer device",
                 "Other"
             ],
             "group_id": 1,
@@ -74,17 +75,23 @@
             "group_id": 1,
             "position": 25
         },
+        "Purchase_Note": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 26
+        },
         "Manual_File_Attached": {
             "type": "checkbox",
             "value": "off",
             "group_id": 1,
-            "position": 26
+            "position": 27
         },
         "Photo_File_Attached": {
             "type": "checkbox",
             "value": "off",
             "group_id": 1,
-            "position": 27
+            "position": 29
         },
         "Manufacturer": {
             "type": "text",
@@ -97,6 +104,12 @@
             "value": "",
             "group_id": 2,
             "position": 40
+        },
+        "Hardware_Components": {
+            "type": "text",
+            "value": "",
+            "group_id": 2,
+            "position": 42
         },
         "Software_Version": {
             "type": "text",
